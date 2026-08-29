@@ -45,3 +45,10 @@ internal class Program
         {
             Console.WriteLine("done");
         }
+
+        //5th answer
+        int pageint = 300;
+        double pagedouble = pageint;
+        Console.WriteLine(pagedouble);
+    }
+}

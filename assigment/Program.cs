@@ -26,3 +26,8 @@ internal class Program
         Console.WriteLine(book.GetHashCode());
         Console.WriteLine(book.gettype());
 
+        //3rd answer
+
+        int page = 464;
+        Console.WriteLine(page);
+

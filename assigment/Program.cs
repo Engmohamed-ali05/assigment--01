@@ -31,3 +31,17 @@ internal class Program
         int page = 464;
         Console.WriteLine(page);
 
+        //4th answer
+        try
+        {
+            int result = 10 / 0;
+            Console.WriteLine(result);
+        }
+        catch (Divide Exception)
+        {
+            Console.WriteLine("can notdivide");
+        }
+        finally
+        {
+            Console.WriteLine("done");
+        }

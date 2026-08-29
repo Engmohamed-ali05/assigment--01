@@ -1,10 +1,21 @@
-﻿namespace assigment
+﻿
+
+// 1st answer
+
+namespace assigment
+
+
+public class book { public string title; public int page; }
+
+
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
-}
+        book book = new book();
+        book.title = "cleancode";
+        book.page = 464;
+        object ob1 = book;
+        Console.WriteLine(ob1);
+

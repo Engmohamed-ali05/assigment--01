@@ -19,3 +19,10 @@ internal class Program
         object ob1 = book;
         Console.WriteLine(ob1);
 
+        //2 nd answer
+
+        Console.WriteLine(book.ToString());
+        Console.WriteLine(book.Equals(book));
+        Console.WriteLine(book.GetHashCode());
+        Console.WriteLine(book.gettype());
+
